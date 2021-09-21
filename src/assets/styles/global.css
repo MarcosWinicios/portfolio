@@ -36,13 +36,20 @@ body,
     width: 100vw;
     display: flex;
     justify-content: center;
+    height: fit-content;
 }
 
 .page-container {
     width: 85vw;
-    /* border: solid 1px #ccc; */
+    /* border: solid 1px red; */
 }
 
 .flex {
     display: flex;
+}
+
+.title-page {
+    margin-bottom: 26px;
+    font-size: 3.5rem;
+    color: var(--color-primary-dark);
 }
