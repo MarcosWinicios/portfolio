@@ -1,10 +1,14 @@
+
+import About from 'pages/About';
+import LandingPage from 'pages/LandingPage';
 import React from 'react';
-
-
 
 function App() {
   return (
-    <h1>Olá</h1>
+    <>
+      <LandingPage />
+      <About />
+    </>
   );
 }
 
