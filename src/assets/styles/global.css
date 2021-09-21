@@ -13,6 +13,11 @@
 
 a {
     text-decoration: none;
+    color: var(--color-header-navigation-text);
+}
+
+a:hover {
+    color: var(--color-header-navigation-text-hover);
 }
 
 body,
@@ -24,7 +29,18 @@ textarea {
 html,
 body,
 #root {
-    height: 100vh;
+    height: 100vw;
+}
+
+.page {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.page-container {
+    width: 85vw;
+    /* border: solid 1px #ccc; */
 }
 
 .flex {

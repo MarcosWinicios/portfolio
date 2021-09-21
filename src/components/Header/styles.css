@@ -14,7 +14,9 @@ header div nav {
     font-size: 1.3rem;
     font-weight: 300;
     padding: 10px 0 10px 0;
+    width: 80vw;
     justify-content: space-between;
+    /* background-color: aliceblue; */
 }
 
 header div nav a {

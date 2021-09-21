@@ -2,8 +2,8 @@ import 'components/Header/styles.css';
 
 const Header = () => {
     return (
-        <header className="flex">
-            <div className="flex">
+        <header className="page">
+            <div className="flex page-container">
                 <div className="logo">MW</div>
                 <nav className="flex">
                     <a href="#home"><p>Home</p></a>

@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section>
+        <section id="about">
             <h1 className="title-page">Sobre</h1>
             <section className="about-container">
                 {/* <figure className="img-profile">
