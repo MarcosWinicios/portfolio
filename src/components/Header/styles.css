@@ -1,7 +1,9 @@
 header {
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-primary-dark-tranparent);
     color: var(--color-primary-light);
     justify-content: center;
+    top: 0;
+    position: fixed;
 }
 
 header div {
@@ -16,17 +18,8 @@ header div nav {
     padding: 10px 0 10px 0;
     width: 80vw;
     justify-content: space-between;
-    /* background-color: aliceblue; */
 }
 
 header div nav a {
     padding: 5px;
-}
-
-header a {
-    color: var(--color-header-navigation-text);
-}
-
-header a:hover {
-    color: var(--color-header-navigation-text-hover);
 }

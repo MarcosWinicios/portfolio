@@ -1,5 +1,6 @@
 :root {
     --color-primary-dark: #212428;
+    --color-primary-dark-tranparent: rgb(33, 36, 40, 0.975);
     --color-primary-light: #E5E5E5;
     --color-header-navigation-text: #75797C;
     --color-header-navigation-text-hover: #E3E3E3;
