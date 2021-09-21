@@ -6,7 +6,7 @@ const Header = () => {
             <div className="flex page-container">
                 <div className="logo">MW</div>
                 <nav className="flex">
-                    <a href="#home"><p>Home</p></a>
+                    <a href="#landing-page"><p>Home</p></a>
                     <a href="#about"><p>Sobre</p></a>
                     <a href="#education"><p>Educação</p></a>
                     <a href="#skills"><p>Habilidades</p></a>

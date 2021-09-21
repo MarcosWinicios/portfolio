@@ -54,3 +54,14 @@ body,
     font-size: 3.5rem;
     color: var(--color-primary-dark);
 }
+
+:target {
+    scroll-margin-top: 1.9em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    /*Se não houver config p/ reduzir animações*/
+    html {
+        scroll-behavior: smooth;
+    }
+}
