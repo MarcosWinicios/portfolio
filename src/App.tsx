@@ -1,3 +1,4 @@
+import Footer from 'components/Footer';
 import Header from 'components/Header';
 import About from 'pages/About';
 import LandingPage from 'pages/LandingPage';
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <LandingPage />
       <About />
+      <Footer />
     </>
   );
 }
