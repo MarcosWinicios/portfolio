@@ -20,11 +20,14 @@
 
 .image-profile-container {
     width: 56%;
+    padding-right: 10px;
     /* border: solid 1px #000; */
 }
 
-.img {
+.img img {
+    margin-top: 10px;
     border: solid 1px #ccc;
-    width: 80%;
+    width: 100%;
     height: 100%;
+    border-radius: 2%;
 }
