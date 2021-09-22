@@ -2,7 +2,7 @@
     --color-primary-dark: #212428;
     --color-primary-dark-tranparent: rgb(33, 36, 40, 0.975);
     --color-primary-light: #E5E5E5;
-    --color-header-navigation-text: #75797C;
+    --color-header-navigation-text: #a5abaf;
     --color-header-navigation-text-hover: #E3E3E3;
 }
 
@@ -30,19 +30,17 @@ textarea {
 html,
 body,
 #root {
-    height: 100vw;
+    height: 100vh;
 }
 
 .page {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
-    height: fit-content;
 }
 
 .page-container {
-    width: 85vw;
-    /* border: solid 1px red; */
+    width: 80vw;
 }
 
 .flex {

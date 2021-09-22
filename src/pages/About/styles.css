@@ -1,29 +1,30 @@
 #about .page-container {
     margin-top: 10px;
     display: flex;
+    flex-direction: column;
+    height: 90vh;
     /* border: solid 1px #000; */
 }
 
-.about-text {
+.about-container {
     width: fit-content;
-    padding-left: 5px;
-}
-
-.about-text article {
-    text-align: justify;
-}
-
-.image-profile {
-    width: 48vw;
-    /* border: solid 1px #000; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* border: solid 1px #000; */
+}
+
+.about-container article {
+    text-align: justify;
+    /* border: solid 1px #000; */
+    width: fit-content;
+}
+
+.image-profile-container {
+    width: 56%;
+    /* border: solid 1px #000; */
 }
 
 .img {
     border: solid 1px #ccc;
-    margin-top: 20%;
     width: 80%;
-    height: 70%;
+    height: 100%;
 }

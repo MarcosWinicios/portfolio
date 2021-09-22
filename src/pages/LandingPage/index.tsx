@@ -1,4 +1,3 @@
-import Header from 'components/Header';
 import { VscFoldDown } from 'react-icons/vsc'
 
 import './styles.css';
@@ -7,11 +6,12 @@ const LandingPage = () => {
         < >
             <section id="landing-page" className="page" >
                 <div className="page-container">
-                    <h1 className="main-text">Olá, eu sou o Marcos Winicios</h1>
-                    <h3 className="secoundary-text">Um desenvolvedor web</h3>
-
+                    <h1 className="main-text">
+                        Olá,<br /> EU SOU O MARCOS WINICIOS
+                    </h1>
+                    <p className="secoundary-text">Um desenvolvedor web em formação</p>
                     <div className="down-icon-container">
-                        <a href="#about">
+                        <a href="#about"  >
                             <VscFoldDown className="down-icon" />
                         </a>
                     </div>
