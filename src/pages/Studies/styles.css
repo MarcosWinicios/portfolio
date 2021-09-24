@@ -13,8 +13,8 @@
     color: var(--color-primary-light);
     border: solid 1px var(--color-dark-border);
     border-radius: 10px;
-    box-shadow: var(--color-dark-box-shawdow) 2px 2px 1px;
-    padding: 10px 25px 25px 15px;
+    box-shadow: var(--color-dark-box-shawdow) 5px 5px 15px;
+    padding: 35px;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@
 }
 
 .course-item:hover {
-    box-shadow: rgb(204, 204, 204, 10%) 5px 5px 10px;
+    box-shadow: var(--color-dark-box-shawdow) 15px 15px 25px
 }
 
 .course-item .coursers-icons-container {
@@ -33,4 +33,25 @@
 
 .coursers-icons-container a {
     margin-bottom: 10px;
+}
+
+.informations>div {
+    display: flex;
+    align-items: center;
+}
+
+.informations>div>:nth-last-child(n+1) {
+    margin: 0 0 10px 10px;
+}
+
+.informations>p {
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: var(--color-green-status);
+    border: solid 1px var(--color-border-status);
+    border-radius: 8px;
+    color: var(--color-primary-light);
+    padding: 5px;
+    margin-left: 11px;
 }

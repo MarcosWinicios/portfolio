@@ -1,5 +1,5 @@
 header {
-    background-color: var(--color-primary-dark-tranparent);
+    background-color: var(--color-background-header-tranparent);
     color: var(--color-primary-light);
     justify-content: center;
     top: 0 !important;

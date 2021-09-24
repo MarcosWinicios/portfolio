@@ -1,12 +1,16 @@
 :root {
     --color-primary-dark: #212428;
-    --color-primary-dark-tranparent: rgb(33, 36, 40, 0.975);
     --color-primary-light: #E5E5E5;
+    --color-background-header-tranparent: rgb(33, 36, 40, 0.975);
     --color-header-navigation-text: #a5abaf;
     --color-header-navigation-text-hover: #E3E3E3;
-    --color-dark-border: rgb(204, 204, 204, 10%);
-    --color-dark-box-shawdow: rgb(204, 204, 204, 10%);
+    --color-dark-border: rgba(204, 204, 204, 0.050);
+    --color-dark-box-shawdow: rgba(0, 0, 0, 0.562);
     --color-background-dark-item: rgba(5, 5, 5, 0.103);
+    --color-green-status: #008069;
+    --color-yellow-status: rgba(214, 226, 50, 0.877);
+    --color-border-status: rgba(255, 255, 255, 0.233);
+    /* --color-dark-box-shawdow: rgb(204, 204, 204, 10%); */
 }
 
 * {
