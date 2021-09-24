@@ -4,6 +4,9 @@
     --color-primary-light: #E5E5E5;
     --color-header-navigation-text: #a5abaf;
     --color-header-navigation-text-hover: #E3E3E3;
+    --color-dark-border: rgb(204, 204, 204, 10%);
+    --color-dark-box-shawdow: rgb(204, 204, 204, 10%);
+    --color-background-dark-item: rgba(5, 5, 5, 0.103);
 }
 
 * {

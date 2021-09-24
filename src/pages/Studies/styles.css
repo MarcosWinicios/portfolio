@@ -9,17 +9,20 @@
     color: var(--color-primary-light);
 }
 
-#studies .page-container>div:last-child {
-    border: none;
-}
-
 .course-item {
     color: var(--color-primary-light);
-    border-bottom: solid 1px rgb(204, 204, 204, 10%);
-    padding-bottom: 25px;
+    border: solid 1px var(--color-dark-border);
+    border-radius: 10px;
+    box-shadow: var(--color-dark-box-shawdow) 2px 2px 1px;
+    padding: 10px 25px 25px 15px;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
+    background-color: var(--color-background-dark-item);
+}
+
+.course-item:hover {
+    box-shadow: rgb(204, 204, 204, 10%) 5px 5px 10px;
 }
 
 .course-item .coursers-icons-container {

@@ -16,7 +16,7 @@ const Studies = () => {
                         <p>3600 hrs</p>
                     </div>
                     <div className="coursers-icons-container">
-                        <a href="https://ifgoiano.com.br" >
+                        <a href="https://ifgoiano.edu.br/" target="_blank"  >
                             <FiLink />
                         </a>
                         <a href="#" >
@@ -32,7 +32,7 @@ const Studies = () => {
                         <p>3600 hrs</p>
                     </div>
                     <div className="coursers-icons-container">
-                        <a href="https://ifgoiano.com.br" >
+                        <a href="https://ifgoiano.edu.br/" target="_blank"  >
                             <FiLink />
                         </a>
                         <a href="#" >
@@ -48,7 +48,7 @@ const Studies = () => {
                         <p>3600 hrs</p>
                     </div>
                     <div className="coursers-icons-container">
-                        <a href="https://ifgoiano.com.br" >
+                        <a href="https://ifgoiano.edu.br/" target="_blank"  >
                             <FiLink />
                         </a>
                         <a href="#" >
@@ -64,7 +64,23 @@ const Studies = () => {
                         <p>3600 hrs</p>
                     </div>
                     <div className="coursers-icons-container">
-                        <a href="https://ifgoiano.com.br" >
+                        <a href="https://ifgoiano.edu.br/" target="_blank"  >
+                            <FiLink />
+                        </a>
+                        <a href="#" >
+                            <AiOutlineInfoCircle />
+                        </a>
+                    </div>
+                </div>
+                <div className="course-item">
+                    <div className="informations">
+                        <h3>BACHARELADO EM SISTEMAS DE INFORMAÇÃO</h3>
+                        <h4>Institudo Federal Goiano - Campus Ceres</h4>
+                        <p>Status: Cursando</p>
+                        <p>3600 hrs</p>
+                    </div>
+                    <div className="coursers-icons-container">
+                        <a href="https://ifgoiano.edu.br/" target="_blank"  >
                             <FiLink />
                         </a>
                         <a href="#" >
