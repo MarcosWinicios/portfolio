@@ -2,13 +2,13 @@ import './styles.css';
 
 const About = () => {
     return (
-        <section id="about" className="page">
+        <section id="about" className="page space-top">
             <div className="page-container">
                 <h1 className="title-page">Sobre</h1>
                 <div className="about-container">
                     <div className="image-profile-container">
                         <div className="img">
-                            <img src="https://github.com/marcoswinicios.png" alt="" />
+                            {/* <img src="https://github.com/marcoswinicios.png" alt="" /> */}
                         </div>
                     </div>
                     <article>

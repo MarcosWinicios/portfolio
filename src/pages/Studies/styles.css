@@ -1,0 +1,33 @@
+#studies {
+    background-color: var(--color-primary-dark);
+    color: var(--color-primary-light);
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+#studies .title-page {
+    color: var(--color-primary-light);
+}
+
+#studies .page-container>div:last-child {
+    border: none;
+}
+
+.course-item {
+    color: var(--color-primary-light);
+    border-bottom: solid 1px rgb(204, 204, 204, 10%);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item .coursers-icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.coursers-icons-container a {
+    margin-bottom: 10px;
+}

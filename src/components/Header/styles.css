@@ -2,7 +2,7 @@ header {
     background-color: var(--color-primary-dark-tranparent);
     color: var(--color-primary-light);
     justify-content: center;
-    top: 0;
+    top: 0 !important;
     position: fixed;
 }
 

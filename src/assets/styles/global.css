@@ -39,6 +39,10 @@ body,
     justify-content: center;
 }
 
+.space-top {
+    padding-top: 16px;
+}
+
 .page-container {
     width: 80vw;
 }
