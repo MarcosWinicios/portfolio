@@ -52,6 +52,7 @@ body,
 
 .page-container {
     width: 80vw;
+    border: solid #008069;
 }
 
 .flex {

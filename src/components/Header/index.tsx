@@ -11,7 +11,7 @@ const Header = () => {
                     <a href="#landing-page"><p>Home</p></a>
                     <a href="#about"><p>Sobre</p></a>
                     <a href="#studies"><p>Estudos</p></a>
-                    <a href="#skills"><p>Habilidades</p></a>
+                    <a href="#skills"><p>Conhecimento</p></a>
                     <a href="#projects"><p>Projetos</p></a>
                     <a href="#contact"><p>Contato</p></a>
                 </nav>

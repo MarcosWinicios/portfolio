@@ -1,10 +1,22 @@
 import './styles.css';
 
 import java from '../../assets/img/technologies/java.svg';
+import mysql from '../../assets/img/technologies/mysql.svg';
+
+import springboot from '../../assets/img/technologies/springboot.svg';
+
+import css from '../../assets/img/technologies/css-2.png';
+
+import git from '../../assets/img/technologies/git.svg';
+import github from '../../assets/img/technologies/github.svg';
+import reactjs from '../../assets/img/technologies/reactjs.svg';
+
+
+
 
 const Skills = () => {
     return (
-        <section id="skills" className="page">
+        <section id="skills" className="page space-top">
             <div className="page-container">
                 <h1 className="title-page">Conhecimento</h1>
                 <div className="skills-container">
@@ -30,38 +42,38 @@ const Skills = () => {
                         </li>
                         <li>
                             <figure className="item-skill-container">
-                                <img src={java} alt="Java" width="100" height="100" />
-                                <figcaption>Java</figcaption>
+                                <img src={mysql} alt="Java" width="100" height="100" />
+                                <figcaption>MySQL</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure className="item-skill-container">
-                                <img src={java} alt="Java" width="100" height="100" />
-                                <figcaption>Java</figcaption>
+                                <img src={css} alt="Java" width="100" height="100" />
+                                <figcaption>CSS</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure className="item-skill-container">
-                                <img src={java} alt="Java" width="100" height="100" />
-                                <figcaption>Java</figcaption>
+                                <img src={git} alt="Java" width="100" height="100" />
+                                <figcaption>GIT</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure className="item-skill-container">
-                                <img src={java} alt="Java" width="100" height="100" />
-                                <figcaption>Java</figcaption>
+                                <img src={springboot} alt="Java" width="100" height="100" />
+                                <figcaption>Springboot</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure className="item-skill-container">
-                                <img src={java} alt="Java" width="100" height="100" />
-                                <figcaption>Java</figcaption>
+                                <img src={github} alt="Java" width="100" height="100" />
+                                <figcaption>GitHub</figcaption>
                             </figure>
                         </li>
                         <li>
                             <figure className="item-skill-container">
-                                <img src={java} alt="Java" width="100" height="100" />
-                                <figcaption>Java</figcaption>
+                                <img src={reactjs} alt="Java" width="100" height="100" />
+                                <figcaption>React JS</figcaption>
                             </figure>
                         </li>
                     </ul>
