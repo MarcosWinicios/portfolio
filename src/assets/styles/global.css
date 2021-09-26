@@ -44,6 +44,7 @@ body,
     width: 100%;
     display: flex;
     justify-content: center;
+    border: solid #008069;
 }
 
 .space-top {
@@ -52,7 +53,7 @@ body,
 
 .page-container {
     width: 80vw;
-    /* border: solid #008069; */
+    border: solid #93a819;
 }
 
 .flex {

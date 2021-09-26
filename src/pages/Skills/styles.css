@@ -1,6 +1,7 @@
 #skills {
     min-height: 100vh;
     max-height: fit-content;
+    border: solid #4813c5;
 }
 
 .technologies-container {
@@ -12,7 +13,7 @@
 .panel {
     margin: 25px 0 35px 0;
     padding: 35px;
-    max-width: auto;
+    max-width: none;
     border: solid 1px var(--color-dark-border);
     border-radius: 10px;
     box-shadow: var(--color-dark-box-shawdow) 5px 5px 15px;
@@ -20,6 +21,7 @@
     border-radius: 10px;
     display: flex;
     background-color: #cccccc1c;
+    border: solid #ce1c1c;
 }
 
 .panel> :nth-child(n + 1) {
