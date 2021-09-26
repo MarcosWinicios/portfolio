@@ -1,17 +1,15 @@
 import './styles.css';
 
+import html from '../../assets/img/technologies/html5.svg';
 import java from '../../assets/img/technologies/java.svg';
 import mysql from '../../assets/img/technologies/mysql.svg';
-
 import springboot from '../../assets/img/technologies/springboot.svg';
-
-import css from '../../assets/img/technologies/css-2.png';
-
+import css from '../../assets/img/technologies/css-2.svg';
 import git from '../../assets/img/technologies/git.svg';
 import github from '../../assets/img/technologies/github.svg';
 import reactjs from '../../assets/img/technologies/reactjs.svg';
-
-
+import javascript from '../../assets/img/technologies/javascript.svg'
+import hibernate from '../../assets/img/technologies/hibernate.svg'
 
 
 const Skills = () => {
@@ -48,8 +46,21 @@ const Skills = () => {
                         </li>
                         <li>
                             <figure className="item-skill-container">
+                                <img src={html} alt="Java" width="100" height="100" />
+                                <figcaption>HTML</figcaption>
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure className="item-skill-container">
                                 <img src={css} alt="Java" width="100" height="100" />
                                 <figcaption>CSS</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure className="item-skill-container">
+                                <img src={javascript} alt="Java" width="100" height="100" />
+                                <figcaption>JavaScript</figcaption>
                             </figure>
                         </li>
                         <li>
@@ -74,6 +85,12 @@ const Skills = () => {
                             <figure className="item-skill-container">
                                 <img src={reactjs} alt="Java" width="100" height="100" />
                                 <figcaption>React JS</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure className="item-skill-container">
+                                <img src={hibernate} alt="Java" width="100" height="100" />
+                                <figcaption>Hibernate</figcaption>
                             </figure>
                         </li>
                     </ul>
