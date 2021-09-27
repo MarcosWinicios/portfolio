@@ -21,7 +21,7 @@
     border-radius: 10px;
     display: flex;
     background-color: #cccccc1c;
-    border: solid #ce1c1c;
+    /* border: solid #ce1c1c; */
 }
 
 .panel> :nth-child(n + 1) {

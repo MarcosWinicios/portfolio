@@ -1,4 +1,4 @@
-import { FiLink, FiBook } from 'react-icons/fi';
+import { FiLink } from 'react-icons/fi';
 import { AiOutlineInfoCircle } from 'react-icons/ai'
 import { FaGraduationCap, FaUniversity, FaRegClock } from 'react-icons/fa';
 

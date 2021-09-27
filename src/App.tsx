@@ -3,6 +3,7 @@ import Header from 'components/Header';
 import About from 'pages/About';
 import Contact from 'pages/Contact';
 import LandingPage from 'pages/LandingPage';
+import Portfolio from 'pages/Portfolio';
 import Skills from 'pages/Skills';
 import Studies from 'pages/Studies';
 import React from 'react';
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Studies />
       <Skills />
+      <Portfolio />
       <Contact />
       <Footer />
     </>

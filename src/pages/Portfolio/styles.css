@@ -1,0 +1,26 @@
+#portfolio {
+    background-color: var(--color-primary-dark);
+    height: 100vh;
+    color: var(--color-primary-light);
+}
+
+#portfolio .title-page {
+    color: var(--color-primary-light);
+}
+
+.projects-container {
+    border: solid 1px rgb(212, 54, 54);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+    margin: 25px 0 25px 0;
+    align-items: center;
+}
+
+.item-project {
+    width: fit-content;
+    border: solid 1px #ccc;
+    padding: 55px;
+    /* padding: 15px 15px 5px 15px; */
+    margin: 10px 10px 10px 10px;
+}
