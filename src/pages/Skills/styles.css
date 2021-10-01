@@ -1,7 +1,6 @@
 #skills {
     min-height: 100vh;
     max-height: fit-content;
-    border: solid #4813c5;
 }
 
 .technologies-container {
@@ -10,34 +9,7 @@
     justify-content: space-between;
     margin: 25px 0 35px 0;
     background-color: #cccccc1c;
-    /* border: solid 1px #3dc513; */
-    /* background-color: #3dc513; */
 }
-
-
-/* .panel {
-    padding: 35px;
-    border: solid 1px var(--color-dark-border);
-    border-radius: 10px;
-    box-shadow: var(--color-dark-box-shawdow) 5px 5px 15px;
-    display: flex;
-} */
-
-
-/* .panel {
-    margin: 25px 0 35px 0;
-    padding: 35px;
-    border: solid 1px var(--color-dark-border);
-    border-radius: 10px;
-    box-shadow: var(--color-dark-box-shawdow) 5px 5px 15px;
-    border-radius: 10px;
-    display: flex;
-    background-color: #cccccc1c;
-    /* border: solid #ce1c1c; *
-
-
-}
-*/
 
 .panel> :nth-child(n + 1) {
     max-width: fit-content;
