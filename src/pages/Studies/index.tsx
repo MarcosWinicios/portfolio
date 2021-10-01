@@ -10,7 +10,7 @@ const Studies = () => {
         <section id="studies" className="page space-top">
             <div className="page-container">
                 <h1 className="title-page">Estudos</h1>
-                <div className="course-item">
+                <div className="course-item  panel">
                     <div className="informations">
                         <div>
                             <FaGraduationCap />
@@ -37,7 +37,7 @@ const Studies = () => {
                 </div>
 
 
-                <div className="course-item">
+                <div className="course-item panel">
                     <div className="informations">
                         <div>
                             <FaGraduationCap />
@@ -63,7 +63,7 @@ const Studies = () => {
                     </div>
                 </div>
 
-                <div className="course-item">
+                <div className="course-item panel">
                     <div className="informations">
                         <div>
                             <FaGraduationCap />
@@ -89,7 +89,7 @@ const Studies = () => {
                     </div>
                 </div>
 
-                <div className="course-item">
+                <div className="course-item  panel">
                     <div className="informations">
                         <div>
                             <FaGraduationCap />

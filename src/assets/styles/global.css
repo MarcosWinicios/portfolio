@@ -70,6 +70,15 @@ body,
     scroll-margin-top: 1.9em;
 }
 
+.panel {
+    box-shadow: var(--color-dark-box-shawdow) 5px 5px 15px;
+    border: solid 1px var(--color-dark-border);
+    border-radius: 10px;
+    padding: 35px;
+    display: flex;
+    margin: 25px 0 35px 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     /*Se não houver config p/ reduzir animações*/
     html {

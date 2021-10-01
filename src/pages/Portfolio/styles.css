@@ -9,12 +9,9 @@
 }
 
 .projects-container {
-    border: solid 1px rgb(212, 54, 54);
-    display: flex;
     flex-wrap: wrap;
-    padding: 35px;
-    margin: 25px 0 25px 0;
-    align-items: center;
+    justify-content: center;
+    color: var(--color-primary-light);
 }
 
 .item-project {
@@ -22,5 +19,6 @@
     border: solid 1px #ccc;
     padding: 55px;
     /* padding: 15px 15px 5px 15px; */
-    margin: 10px 10px 10px 10px;
+    margin: 15px 15px 15px 15px;
+    border-radius: 10px;
 }

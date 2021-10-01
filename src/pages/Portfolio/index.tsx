@@ -5,7 +5,7 @@ const Portfolio = () => {
         <section id="portfolio" className="page space-top">
             <div className="page-container">
                 <h1 className="title-page">Portólio</h1>
-                <div className="projects-container">
+                <div className="projects-container panel">
 
                     <figure className="item-project">
                         <img src="#" alt="project" />

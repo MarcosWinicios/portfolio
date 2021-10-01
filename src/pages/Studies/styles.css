@@ -11,12 +11,7 @@
 
 .course-item {
     color: var(--color-primary-light);
-    border: solid 1px var(--color-dark-border);
-    border-radius: 10px;
-    box-shadow: var(--color-dark-box-shawdow) 5px 5px 15px;
-    padding: 35px;
     margin-bottom: 25px;
-    display: flex;
     justify-content: space-between;
     background-color: var(--color-background-dark-item);
 }
