@@ -1,6 +1,6 @@
 #portfolio {
     background-color: var(--color-primary-dark);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-height: fit-content;
     color: var(--color-primary-light);
 }
@@ -27,8 +27,8 @@
 
 .item-project {
     background-color: var(--color-background-dark-item);
-    max-width: fit-content;
-    height: 300px;
+    width: 30%;
+    height: 40vh;
     border: solid 1px rgba(204, 204, 204, 0.082) !important;
     margin: 0 15px 15px 15px !important;
     border-radius: 10px;

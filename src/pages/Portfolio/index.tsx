@@ -10,32 +10,32 @@ const Portfolio = () => {
 
                 <div className="projects-container">
                     <figure className="item-project panel">
-                        <img src="#" alt="project" />
+                        <img src="#" alt="" />
                         <figcaption>Name project</figcaption>
                     </figure>
 
                     <figure className="item-project panel">
-                        <img src="#" alt="project" />
+                        <img src="#" alt="" />
                         <figcaption>Name project</figcaption>
                     </figure>
 
                     <figure className="item-project panel">
-                        <img src="#" alt="project" />
+                        <img src="#" alt="" />
                         <figcaption>Name project</figcaption>
                     </figure>
 
                     <figure className="item-project panel">
-                        <img src="#" alt="project" />
+                        <img src="#" alt="" />
                         <figcaption>Name project</figcaption>
                     </figure>
 
                     <figure className="item-project panel">
-                        <img src="#" alt="project" />
+                        <img src="#" alt="" />
                         <figcaption>Name project</figcaption>
                     </figure>
 
                     <figure className="item-project panel">
-                        <img src="#" alt="project" />
+                        <img src="#" alt="" />
                         <figcaption>Name project</figcaption>
                     </figure>
                 </div>

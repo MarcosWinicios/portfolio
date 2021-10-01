@@ -1,7 +1,6 @@
 #studies {
     background-color: var(--color-primary-dark);
     color: var(--color-primary-light);
-    min-height: 100vh;
     max-height: fit-content;
 }
 
