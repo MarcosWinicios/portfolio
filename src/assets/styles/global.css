@@ -38,26 +38,24 @@ html,
 body,
 #root {
     height: 100vh;
+    /* width: 100%; */
 }
 
 .page {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center center;
     /* border: solid #008069; */
 }
 
 .space-top {
-    padding-top: 16px;
+    padding: 16px 0 16px 0;
 }
 
 .page-container {
-    width: 80vw;
-    /* border: solid #93a819; */
-}
-
-.flex {
-    display: flex;
+    width: 80%;
+    /* border: solid 1px #93a819; */
 }
 
 .title-page {
@@ -71,7 +69,7 @@ body,
 }
 
 .panel {
-    box-shadow: var(--color-dark-box-shawdow) 5px 5px 15px;
+    box-shadow: var(--color-dark-box-shawdow) 5px 5px 25px;
     border: solid 1px var(--color-dark-border);
     border-radius: 10px;
     padding: 35px;

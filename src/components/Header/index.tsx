@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="logo">
                     <a href="#landing-page">MW</a>
                 </div>
-                <nav className="flex">
+                <nav>
                     <a href="#landing-page"><p>Home</p></a>
                     <a href="#about"><p>Sobre</p></a>
                     <a href="#studies"><p>Estudos</p></a>

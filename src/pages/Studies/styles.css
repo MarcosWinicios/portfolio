@@ -17,7 +17,7 @@
 }
 
 .course-item:hover {
-    box-shadow: var(--color-dark-box-shawdow) 15px 15px 25px
+    box-shadow: var(--color-dark-box-shawdow) 25px 15px 25px
 }
 
 .course-item .coursers-icons-container {
