@@ -28,6 +28,10 @@ a:hover {
     color: var(--color-header-navigation-text-hover);
 }
 
+li {
+    list-style: none;
+}
+
 body,
 textarea {
     font: 400 1.6rem Ubuntu;
@@ -37,6 +41,7 @@ textarea {
 html,
 body,
 #root {
+    list-style: none;
     height: 100vh;
     /* width: 100%; */
 }

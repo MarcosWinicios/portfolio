@@ -1,0 +1,43 @@
+#contact {
+    height: 95%;
+}
+
+#contact ul {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* background-color: aqua; */
+    /* border: solid 1px #000; */
+}
+
+.icon-contact {
+    /* border: solid 1px #000; */
+    width: 45px;
+    height: 45px;
+    /* background-color: blue; */
+}
+
+.contact a {
+    color: var(--color-primary-dark);
+    /* border: solid 1px #000; */
+    display: flex;
+    width: 35vw;
+    align-items: center;
+    text-align: left;
+    /* margin-bottom: 45px; */
+}
+
+.contact p {
+    color: #212428ee;
+    margin-left: 45px;
+}
+
+.contact p:hover {
+    color: #212428;
+}
+
+.instagram {
+    display: flex;
+}
