@@ -5,6 +5,6 @@
 - Status: Em andamento
 
 ##### Tecnologias
-
+* HTML5
 * React JS
 * Typescipt
