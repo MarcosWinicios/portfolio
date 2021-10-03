@@ -6,5 +6,6 @@
 
 ##### Tecnologias
 * HTML5
+* CSS3
 * React JS
 * Typescipt
