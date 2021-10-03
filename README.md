@@ -4,5 +4,7 @@
 
 - Status: Em andamento
 
+##### Tecnologias
+
 * React JS
 * Typescipt
