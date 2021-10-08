@@ -23,7 +23,7 @@ const Contact = () => {
                     </li>
                     <li className="contact">
                         <a href="mailto:pmarcoswinicios@gmail.com">
-                            <SiGmail className="icon-contact gmail" color="#EA4335" />
+                            <SiGmail className="icon-contact" color="#EA4335" />
                             <p>pmarcoswinicios@gmail.com</p>
                         </a>
                     </li>

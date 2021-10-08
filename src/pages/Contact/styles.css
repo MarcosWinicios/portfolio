@@ -8,6 +8,8 @@
     flex-wrap: wrap;
     flex: 1;
     justify-content: space-between;
+    /* border: solid 1px #212428; */
+    align-items: flex-start;
 }
 
 .icon-contact {
