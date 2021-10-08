@@ -61,10 +61,12 @@ body,
 
 .page-container {
     width: 80%;
-    /* border: solid 3px #93a819; */
+    /* border: solid 1px #93a819; */
 }
 
 .title-page {
+    width: fit-content;
+    margin-left: -0.28rem;
     margin-bottom: 26px;
     font-size: 3.5rem;
     color: var(--color-primary-dark);
